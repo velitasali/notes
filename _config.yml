@@ -2,7 +2,6 @@ site: notes
 url: https://notes.velitasali.com
 title: notes
 description: english literature studies by veli tasalı et al.
-permalink: pretty
 baseurl: ""
 
 owner:
@@ -11,9 +10,6 @@ owner:
   twitter: velitasali
   github: velitasali
   url: https://velitasali.com
-
-exclude:
-  - .jekyll-cache
   
 compress_html:
   clippings: all
@@ -23,11 +19,19 @@ sass:
   sass_dir: _sass
   style: :compressed
 
+permalink: pretty
+markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll/tagging
   - jekyll-feed
-  - jekyll-seo-tag  
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Tags
+tag_page_dir: tag
+tag_page_layout: tag
+tag_permalink_style: pretty
 
 collections:
   pages:
@@ -38,8 +42,12 @@ collections:
     permalink: /:year/:month/:day/:slug
   authors:
     output: true
-  
-tag_page_layout: tag
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
 
 defaults:
   -
