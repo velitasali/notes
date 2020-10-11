@@ -3,12 +3,10 @@ layout: page
 title: about
 ---
 
-hi, there! i am veli tasalı. i am tired of writing about sections, so let me sort this out quickly. 
+Hi, there! I am Veli Tasalı. I am tired of writing "About Sections", so let me sort this out quickly. 
 
-i always need something to take notes but could not find a better way of organizing things. i tried google classroom and now using it, but not for taking notes. for that, i will use here. the lovely markdown format should make the note taking process a breeze. 
+I always need something to take notes and fail to find what I am looking for in third-party services. I tried Google Classroom and now using it, but not for taking notes. For that, I will use here. The lovely markdown format should make the note taking process a breeze. 
 
-i am studying english literature btw. 
+I am studying English Literature and last year, I took a break because I had something else in mind, and this year that took over everything and now I just want to get my degree and move on.
 
-last year, i took a break because i had something else in mind, and this year that took over everything and now just want to get my degree and move on.
-
-thank you for paying attention. i love you.
+That was it. Thank you for paying attention. Love you.
