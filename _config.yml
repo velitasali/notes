@@ -23,15 +23,12 @@ permalink: pretty
 markdown: kramdown
 plugins:
   - jekyll-sitemap
-  - jekyll/tagging
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
 
 # Tags
-tag_page_dir: tag
-tag_page_layout: tag
-tag_permalink_style: pretty
+
 
 collections:
   pages:

@@ -1,12 +1,12 @@
 links:
-- title: notes
+- title: all
   url: /
-- title: cats
+- title: categories
   url: /categories
+- title: authors
+  url: /authors
 - title: tags
   url: /tags
-- title: auth
-  url: /authors
 - title: find
   url: /search
 - title: info

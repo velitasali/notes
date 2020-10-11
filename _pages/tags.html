@@ -4,11 +4,16 @@ title: tags
 ---
 
 <section class="posts">
-	<h2>{{ page.title }}</h1>
+	<h1>{{ page.title }}</h1>
 {% assign tags = site.tags | sort %}
-	<ul>
 {% for tag in tags %}
-        <li><a href="/tag/{{ tag | first | slugify }}/">#{{ tag[0] }} ({{ tag | last | size }})</a></li>
-{% endfor %}
+    <h2><a href="#{{ tag | first | slugify }}">#{{ tag | first }}</a> ({{ tag | last | size }})</h2>
+    <ul>
+    {% for post in site.posts %}
+        {% if post.tags contains tag[0] %}
+        {% include list_post.html %}
+        {% endif %}
+    {% endfor %}
     </ul>
+{% endfor %}
 </section>

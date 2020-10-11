@@ -1,2 +1,2 @@
 {% assign category_size = post.categories | size %}
-<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> {% for category in post.categories %}&plus;{{ category }}{% unless forloop.last %}, {% endunless %}{% endfor %}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></li>
+<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span>{% for category in post.categories %}{{ category }}{% unless forloop.last %}, {% endunless %}{% endfor %}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></span></li>

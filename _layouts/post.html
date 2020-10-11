@@ -18,7 +18,7 @@ layout: default
 {% endif %}
     &middot;
 {% for tag in page.tags %}
-  <a href="/tag/{{tag}}">#{{tag}}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}</p>
+  <a href="/tags#{{tag | slugify }}">#{{tag}}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}</p>
   {{ content }}
 </section>
 
