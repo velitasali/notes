@@ -8,4 +8,7 @@ summary: to be filled
 tags: [corpus, linguistics]
 category: ELIN479
 ---
-_to be filled_
+
+Corpus means _body_ in Latin.
+
+Corpus 

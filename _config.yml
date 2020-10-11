@@ -24,9 +24,10 @@ sass:
   style: :compressed
 
 plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap  
+  - jekyll-sitemap
+  - jekyll/tagging
+  - jekyll-feed
+  - jekyll-seo-tag  
 
 collections:
   pages:
