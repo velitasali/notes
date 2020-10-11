@@ -38,6 +38,8 @@ collections:
   authors:
     output: true
   
+tag_page_layout: tag
+
 defaults:
   -
     scope:
