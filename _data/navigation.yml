@@ -1,15 +1,15 @@
 links:
-- title: all notes
+- title: notes
   url: /
-- title: categories
+- title: cats
   url: /categories
-- title: taggings
+- title: tags
   url: /tags
-- title: authors
+- title: auth
   url: /authors
-- title: search
+- title: find
   url: /search
-- title: about
+- title: info
   url: /about
 - title: rss
   url: /atom.xml
