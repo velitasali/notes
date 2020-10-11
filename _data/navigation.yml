@@ -1,0 +1,15 @@
+links:
+- title: all notes
+  url: /
+- title: categories
+  url: /categories
+- title: taggings
+  url: /tags
+- title: authors
+  url: /authors
+- title: search
+  url: /search
+- title: about
+  url: /about
+- title: rss
+  url: /atom.xml

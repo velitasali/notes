@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<section class="posts">
+    <ul>
+{% for post in site.posts %}
+        {% include list_post.html %}
+{% endfor %}
+    </ul>
+</section>
+

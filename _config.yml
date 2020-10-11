@@ -1,0 +1,60 @@
+site: notes
+url: https://notes.velitasali.com
+title: notes
+description: english literature studies by veli tasalı et al.
+permalink: pretty
+baseurl: ""
+
+owner:
+  name: Veli Tasalı
+  email: me@velitasali.com
+  twitter: velitasali
+  github: velitasali
+  url: https://velitasali.com
+
+highlighter: none
+
+exclude:
+  - .jekyll-cache
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap  
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  authors:
+    output: true
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

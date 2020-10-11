@@ -1,0 +1,21 @@
+---
+layout: default
+title: categories
+---
+
+<section class="posts">
+	<h2>{{ page.title }}</h2>
+{% assign categories = site.categories | sort %}
+
+{% for cat in categories %}
+    <h2>{{ cat[0] }} ({{ cat | last | size }})</h2>
+    <ul>
+    {% for post in site.posts %}
+        {% if post.category contains cat[0] %}
+        {% include list_post.html %}
+        {% endif %}
+    {% endfor %}
+    </ul>
+{% endfor %}
+
+</section>
