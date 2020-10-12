@@ -44,7 +44,5 @@ The reason we wish to use a corpus is that we can analyse large quantities of la
 
 The first thing we can use a corpus for is to test and challenge our intuitions about language. A corpus may underline or refute and idea we have about language use. To give an example, we may wish to uncover how speakers report what others are saying in conversation. We may assume that speakers always use 'back-shift' to report speech and employ a 'rule' often given in grammars of English (for example, Murphy, 2012), where the common 'formula' is 'He/she said that + back-shift' e.g. 'He said that he was going' to report 'I'm going'. However, when this aspect of language has been investigated using corpora, it has been found that this does not always follow. McCarthy and Carter (1995), for instance, looked at the five million-word CANCODE corpus of spoke English and found that 'X was saying + summary with or without back-shift' e.g. 'She was saying she's starting a new job' was also a very frequent way of reporting what others have said in conversations. Carter and McCarthy (2006) describe reporting using the Cambridge English Corpus and suggest that while back-shift is common in conversations, it is also the case that reported and direct speech are often mixed together to make more vivid stories (Jones & Waller, 2015, p. 8) [^2].
 
-To my understanding corpus and the method 
-
-[^1]: Corpus linguistics. (n.d.). In Wikipedia. Retrieved October, 12, 2020, from <https://en.wikipedia.org/wiki/Corpus_linguistics>.
+[^1]: Corpus linguistics. (n.d.). In Wikipedia. Retrieved October 12, 2020, from <https://en.wikipedia.org/wiki/Corpus_linguistics>.
 [^2]: Jones, C., Waller, D. (2015). Corpus Linguistics for Grammar: A Guide for Research. Routledge.

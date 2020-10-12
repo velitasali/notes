@@ -13,7 +13,7 @@ Prof. Brian Tomlinson:
 
 > There are 5 issues that haven't been resolved in teaching. The first one seems to be the coursebook. Some says that it provides safety for the learner.
 
-Mrs. Karaca (opinion):
+Ms. Karaca (opinion):
 
 > There are way many books suggested by the teachers. It is crowded with information and is mostly complicated to do what is being suggested. She thinks they are unnecessary most of the time.
 
