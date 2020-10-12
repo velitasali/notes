@@ -2,7 +2,7 @@
 layout: post
 author: tasali
 title: Material Development - Week 2.1 
-date: 2020-10-12 130:00:00 +300
+date: 2020-10-12 13:00:00 +300
 description: Do we need coursebooks? What is a better way of teaching language and engaging with learners? 
 summary: Coursebooks can be limiting learners ability to be fully exposed the language as they try to be inclusive of different cultures (or types of people) at the cost losing specificity to a group of people, causing them learn unauthentic (not used in real life). 
 tags: [coursebook, deductive, inductive, teaching]
