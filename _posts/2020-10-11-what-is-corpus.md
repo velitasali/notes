@@ -23,12 +23,12 @@ The above sentence has 17 tokens in it. The analysis of those tokens can be seen
 | Verbs        | were x 2, see, fight   |
 | Nouns        | sentence, consequences |
 | Adjectives   | ready, smart           |
-| Adverbs      | enough
+| Adverbs      | enough                 |
 | Determiners  | the, all               |
 | Prepositions | to x 3                 |
 | Conjunction  | but                    |
 
-Therefore there are thirteen different types in the text.
+Therefore there are 13 different types in the text.
 
 Types and tokens can also be compared by dividing the number of types by the number of tokens, giving us a type:token ratio (Jones & Waller, 2015, p. 6) [^2]. 
 
