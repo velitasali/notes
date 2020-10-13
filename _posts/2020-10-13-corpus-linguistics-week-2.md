@@ -50,7 +50,7 @@ There are two different approaches when it comes to examining a language and cre
 
 With corpus linguistics, one can understand how a language is used in specific time-period, place and with how much frequency.
 
-Corpus linguistics can also tell us which words are most often with a specific word, called **collocation** and the syntax used with it, called **colligation**.
+Corpus linguistics can also tell us which words are most often used with a specific word, called **collocation** and the syntax used with it, called **colligation**.
 
 We will study **lexico-grammar** in the upcoming classes.
 
