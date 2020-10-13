@@ -44,7 +44,7 @@ Note that different types (e.g, adverbs and adjective) of the same word counts s
 
 Written corpus is more widely used compared to spoken one. The ratio is similar to 9/1. That is because written text is easier to reach and spoken language is harder to process.
 
-There are different types of corpora. If it is concerned with single source, it is **mono-modal**. If it is with a multiple sources, for instance, written together with body language, physical expressions which may be gathered using a video. And lastly, **monitor-corpus** for which please visit this link <http://www.ilc.cnr.it/EAGLES96/corpustyp/node19.html>
+There are different types of corpora. If it is concerned with single source, it is **mono-modal**. If it is with a multiple sources, for instance, written together with body language, physical expressions which may be gathered using a video, it is **multi-modal**. And lastly, **monitor-corpus** for which please visit this link <http://www.ilc.cnr.it/EAGLES96/corpustyp/node19.html>
 
 There are two different approaches when it comes to examining a language and creating corpora. In **descriptive**, we get the data as it is (including errors). With **prescriptive** approach, there is an expectation on how the language will be. 
 
