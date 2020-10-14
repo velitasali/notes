@@ -8,8 +8,8 @@ links:
 - title: tags
   url: /tags
 - title: find
-  url: /search
-- title: info
+  url: /find
+- title: about
   url: /about
 - title: rss
   url: /atom.xml
