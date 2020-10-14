@@ -27,7 +27,7 @@ When we look at the Victorian era, the idea of self revolves around a stable ego
 
 Religion and history were replaced by mythology. For instance, due to WWI and WWII, people felt hopeless as their request for help from God were not answered. This led to decay in the faith in God. In other words, religion and God lost its meaning. 
 
-Similarly to Sigmund Freud, Carl Jung suggested that humanity has a **collective unconscious**. To him, it proves that individual consciousness is anything but **tabula rasa**, born without built-in mental content. In his archetypes theory, he says **archetypes are typical modes of apprehension**, and whenever we meet with uniform and regularly recurring modes of apprehension, we are dealing with an archetype, no matter whether its mythological character is recognize or not. In other words, archetypes live and function in the deeper layers of the unconscious, and they define a typical mode human of behavior. This can further prove that human mind can be anything but stable.
+Similarly to Sigmund Freud, Carl Jung suggested that species has a **collective unconscious**. To him, it proves that individual consciousness is anything but **tabula rasa**, born without built-in mental content. In his archetypes theory, he says **archetypes are typical modes of apprehension**, and whenever we meet with uniform and regularly recurring modes of apprehension, we are dealing with an archetype, no matter whether its mythological character is recognize or not. In other words, archetypes live and function in the deeper layers of the unconscious, and they define a typical mode human of behavior. This can further prove that human mind can be anything but stable.
 
 
 _Study the 16th page of the slides for the upcoming class._
