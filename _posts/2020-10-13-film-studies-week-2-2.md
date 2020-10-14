@@ -4,7 +4,7 @@ author: tasali
 title: Film Studies - Week 2.2
 date: 2020-10-13 14:40:00 +300
 description: Understanding the types of montage. Is is metric
-summary: Projecting human behaviour on to a film requires an understanding how we see things and create the whole by comparing the whole. 
+summary: Projecting human behavior on to a film requires an understanding how we see things and create the whole by comparing the whole. 
 tags: [eisenstein, montage, theory]
 category: ELIT321
 ---
@@ -29,7 +29,7 @@ Uses the emotional meaning of the shots—not just manipulating the temporal len
 
 To elicit a reaction from the audience even more complex than from the metric or rhythmic montage.
 
-## Overtonal/Associational
+## Over-tonal/Associational
 
 The accumulation of metric, rhythmic, and tonal montage = synthesis.
 
@@ -39,6 +39,6 @@ To synthesize its effect on the audience for an even more abstract and complicat
 
 Uses shots which, when combined, elicit an intellectual meaning.
 
-Symbolic association/metaphor meaning odes not exist in the individual shots; it only arises when they juxtaposed.
+Symbolic association/metaphor meaning does not exist in the individual shots; it only arises when they juxtaposed.
 
 _These are from slides. Today's class was a bit crowded with unrelated topics._
