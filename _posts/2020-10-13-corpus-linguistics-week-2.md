@@ -40,7 +40,7 @@ The above sentence has 17 tokens in it. The analysis of those tokens can be seen
 
 Therefore there are 13 different types in the text.
 
-Note that different types (e.g, adverbs and adjective) of the same word counts separately. For instance, in the case of the below sentence, you are going to count the word "enough" as 2 different types because the first one is an adjective and the other is an adverb.
+Note that different types (e.g., adverbs and adjective) of the same word counts separately. For instance, in the case of the below sentence, you are going to count the word "enough" as 2 different types because the first one is an adjective and the other is an adverb.
 
 > With enough sugar, you can make a cake that is big enough to feed 10 persons.
 
