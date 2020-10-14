@@ -9,12 +9,14 @@ tags: [corpus, corpora, grammatical, lexical, frequency, dictionary, applied-lin
 category: ELIN479
 ---
 
-The limits of a language is infinite. Below are the properties of a corpus.
+Language is infinite. Creating a corpora that include all the details of a language is nearly impossible for that reason. 
+
+Below are the properties of a corpus.
 
 * Electronically stored.
 * Searchable
 * Decoded and ready to use.
-* Should represent the language in wide use.
+* Should represent the language in use.
 * Written or spoken.
 * Should be in a specific size.
 * Bigger than a sentence and in a format that contains paragraphs that are related to each other.
@@ -44,7 +46,7 @@ Note that different types (e.g, adverbs and adjective) of the same word counts s
 
 Written corpus is more widely used compared to spoken one. The ratio is similar to 9/1. That is because written text is easier to reach and spoken language is harder to process.
 
-There are different types of corpora. If it is concerned with single source, it is **mono-modal**. If it is with a multiple sources, for instance, written together with body language, physical expressions which may be gathered using a video, it is **multi-modal**. And lastly, **monitor-corpus** for which please visit this link <http://www.ilc.cnr.it/EAGLES96/corpustyp/node19.html>
+There are different types of corpora. If it is concerned with single source, it is **mono-modal**. If it is with a multiple sources, for instance, written together with body language, physical expressions which may be gathered using a video, it is **multi-modal**. And lastly, **monitor-corpus** for which the details have been given at <http://www.ilc.cnr.it/EAGLES96/corpustyp/node19.html>.
 
 There are two different approaches when it comes to examining a language and creating corpora. In **descriptive**, we get the data as it is (including errors). With **prescriptive** approach, there is an expectation on how the language will be. 
 
@@ -52,6 +54,6 @@ With corpus linguistics, one can understand how a language is used in specific t
 
 Corpus linguistics can also tell us which words are most often used with a specific word, called **collocation** and the syntax used with it, called **colligation**.
 
-We will study **lexico-grammar** in the upcoming classes.
+We will study **lexicogrammar** in the upcoming classes.
 
 We should study **Definition of the Descriptive Grammar** for the next week.
