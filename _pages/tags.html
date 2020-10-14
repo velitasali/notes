@@ -7,7 +7,7 @@ title: tags
 	<h1>{{ page.title }}</h1>
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
-    <h2><a href="#{{ tag | first | slugify }}">#{{ tag | first }}</a> ({{ tag | last | size }})</h2>
+    <h2><a id="{{ tag | first | slugify }}" href="#{{ tag | first | slugify }}">#{{ tag | first }}</a> ({{ tag | last | size }})</h2>
     <ul>
     {% for post in site.posts %}
         {% if post.tags contains tag[0] %}

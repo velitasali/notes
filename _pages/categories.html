@@ -8,7 +8,7 @@ title: categories
 {% assign categories = site.categories | sort %}
 
 {% for cat in categories %}
-    <h2>{{ cat[0] }} ({{ cat | last | size }})</h2>
+    <h2><a id="{{ cat[0] }}" href="#{{ cat[0] }}">{{ cat[0] }}</a> ({{ cat | last | size }})</h2>
     <ul>
     {% for post in site.posts %}
         {% if post.categories contains cat[0] %}

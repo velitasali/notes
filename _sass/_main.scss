@@ -6,8 +6,18 @@
 	padding:0;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
 body {
-	font-family: Ubuntu, Prompt, system-ui, sans-serif;
+	font-family: Ubuntu, system-ui, sans-serif;
 	-webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 	line-height: 1.5;
@@ -24,6 +34,44 @@ a {
     color: #000;
     text-decoration-skip-ink: auto;
     text-decoration: underline;
+}
+
+*:target {
+	animation: colorize 2s normal;
+	animation-iteration-count: 2;
+}
+
+sup:target a {
+	animation: pulse 1s normal;
+	animation-iteration-count: 3;
+}
+
+sup:target::before {
+	content: '[';
+}
+
+sup:target::after {
+	content: ']';
+}
+
+@keyframes pulse {
+	50% {
+		background-color: #88888888;
+	}
+}
+
+@keyframes colorize {
+	33% {
+		color: #44bb88;
+	}
+
+	66% {
+		color: #bb4488;
+	}
+
+	100% {
+		color: initial;
+	}
 }
 
 pre {
