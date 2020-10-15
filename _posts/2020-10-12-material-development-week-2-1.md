@@ -15,7 +15,9 @@ Prof. Brian Tomlinson:
 
 Ms. Karaca (opinion):
 
-> There are way many books suggested by the teachers. It is crowded with information and is mostly complicated to do what is being suggested. She thinks they are unnecessary most of the time.
+> There are way many books suggested by the teachers. It is crowded with information and is mostly complicated to do what is being suggested. 
+
+She thinks they are unnecessary most of the time.
 
 Mr. Tunaz (question):
 
