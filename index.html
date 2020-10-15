@@ -3,6 +3,7 @@ layout: default
 ---
 
 <section class="posts">
+    <h1>all ({{ site.posts | size }})</h1>
     <ul>
 {% for post in site.posts %}
         {% include list_post.html %}
