@@ -5,7 +5,7 @@
             {% for item in site.data.navigation.links %}
                <li><a href="{{ item.url }}" {% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
             {% endfor %}
-            <li><a id="theme-toggle" href="#" onclick="toggleTheme()"></a></li>
+            <li><a id="theme-toggle" href="javascript:void(0)" onclick="toggleTheme()"></a></li>
          </ul>
       </nav>
 </header>
