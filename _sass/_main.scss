@@ -82,7 +82,7 @@ html[data-theme="dark"] {
 @media (prefers-color-scheme: dark) {
 	@include dark_theme();	
 
-	#theme-toggle {
+	#theme-toggle-item {
 		display: none;
 	}
 }
