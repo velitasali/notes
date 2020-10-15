@@ -289,7 +289,7 @@ main {
 
 @media screen and (max-width: 45rem) {
 	header li {
-	    display: inline;
+	    display: inline-flex;
 		margin-right: 1rem;
 	}
 
@@ -299,7 +299,8 @@ main {
 
 	header ul {
 		border-bottom: 1px solid $unopinionated_color;
-		padding-bottom: 2rem;	
+		padding-bottom: 2rem;
+		text-align: center;
 	}
 
 	nav ul {
