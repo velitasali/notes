@@ -1,3 +1,5 @@
+$unopinionated_color: #88888840;
+
 *,:after,:before {
 	box-sizing:border-box;
 	background-color:inherit;
@@ -8,6 +10,10 @@
 
 html {
 	scroll-behavior: smooth;
+}
+
+@media (prefers-color-scheme: dark) {
+
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
@@ -27,13 +33,58 @@ body {
 }
 
 nav ul {
-    border-right: 1px solid #edf2f7;
+    border-right: 1px solid $unopinionated_color;
 }
 
 a {
     color: #000;
     text-decoration-skip-ink: auto;
     text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #555;
+}
+
+#theme-toggle::before {
+	display: inline;
+	content: '🌞';
+}
+
+@mixin dark_theme {
+	html {
+		content: 'dark';
+	}
+
+	body {
+		color: rgb(233, 232, 229);
+		background-color: #333;
+	}
+
+	a {
+		color: #eee;
+	}
+
+	a:hover {
+		color: #bbb;
+	}
+
+	code, pre {
+		background: #333;
+	}
+
+	#theme-toggle::before {
+		content: '🌛';
+	}
+}
+
+html[data-theme="dark"] {
+	@include dark_theme();
+}
+
+@media (prefers-color-scheme: dark) {
+	@include dark_theme();	
 }
 
 *:target {
@@ -95,7 +146,7 @@ pre {
 	margin: .5rem 0;
 }
 
-code,pre {
+code, pre {
 	background: rgb(236, 237, 238);
 }
 
@@ -117,7 +168,7 @@ img {
 }
 
 hr {
-	background: #000;
+	background: $unopinionated_color;
     height: 1px;
     border: 0;
 }
@@ -148,7 +199,7 @@ header,section {
 
 blockquote {
 	font-style: italic;
-    border-left: 5px solid #ececec;
+    border-left: 5px solid #88888840;
     padding-left: 1rem;
 }
 
@@ -202,7 +253,7 @@ strong, b {
 	font-variant-numeric: tabular-nums;
 }
 
-.post ul, .project ul, .post ol  {
+.post ul, .project ul, .post ol {
 	//list-style-position: inside;
 }
 
@@ -214,27 +265,28 @@ main {
 	padding:1rem;
 }
 
+@media screen and (max-width: 45rem) {
+	header li {
+	    display: inline;
+		margin-right: 1rem;
+	}
 
-@media screen and (max-width: 45rem ) {
-header li {
-    display: inline;
-	margin-right: 1rem;
-}
-.logo {
-	padding-bottom: 1rem;
-}
-header ul {
-	border-bottom: 1px solid #edf2f7;
-	padding-bottom: 2rem;	
-}
-nav ul {
-    border-right: 0px;
-}
+	.logo {
+		padding-bottom: 1rem;
+	}
 
-.photos ul {
-	margin-top: 0.5rem;
-}
+	header ul {
+		border-bottom: 1px solid $unopinionated_color;
+		padding-bottom: 2rem;	
+	}
 
+	nav ul {
+	    border-right: 0px;
+	}
+
+	.photos ul {
+		margin-top: 0.5rem;
+	}
 }
 
 section {
