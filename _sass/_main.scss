@@ -242,6 +242,18 @@ strong, b {
 	list-style: none;
 }
 
+section[class="post"] img {
+	width: 70%;	
+	display: flex;	
+	margin-left: auto;
+	margin-right: auto;
+	background: $unopinionated_color;
+	padding: 5px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 .photos li {
 	margin-bottom: 1.5rem;
 }
@@ -312,6 +324,10 @@ main {
 
 	.photos ul {
 		margin-top: 0.5rem;
+	}
+
+	section[class="post"] img {
+		width: initial;	
 	}
 }
 
