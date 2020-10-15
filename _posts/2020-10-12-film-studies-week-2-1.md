@@ -44,13 +44,13 @@ For instance, if you were to draw pictures on a notebook each of which is the ne
 
 * Eisenstein exaggerated such contrast with a technique known as dialectical montage.
 
-For Hegel, **dialectics** is the way that concepts or ideas develop, in the process shaping the world. A thesis produces and antithesis.
+For Hegel, **dialectics** is the way that concepts or ideas develop, in the process shaping the world. A thesis produces an antithesis.
 
 For Marx, there is no synthesis—the conflict, being irreconcilable, produces a further antithesis. Marx suggest that the history of the world is a history of irreconcilable struggles between classes—master and slave in Greek feudal and capitalist societies. Through continual revolution, a better society can be created.
 
 ### Kuleshov Effect
 
-The meaning lays in the relation between the pictures rather than in tech images themselves.
+The meaning lays in the relation between the pictures rather than in the images themselves.
 
 ![In the first scene, the man appears and what appears in the second decides the mood of the man in the eyes of the spectators.](https://jordanrussiacenter.org/wp-content/uploads/2018/03/kuleshov-effect.png)
 
