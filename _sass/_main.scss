@@ -286,8 +286,7 @@ main {
 	margin: .5rem 0;
 }
 
-
-@media screen and (max-width: 45rem) {
+@media screen and (max-width: 49rem) {
 	header li {
 	    display: inline-flex;
 		margin-right: 1rem;
@@ -304,7 +303,7 @@ main {
 	}
 
 	nav ul {
-	    border-right: 0px;
+	    border-right: 0;
 	}
 
 	.photos ul {
@@ -318,7 +317,6 @@ section {
 	min-width:70%;
 	display:flex;
 	flex-direction:column;
-	
 }
 
 figcaption {
