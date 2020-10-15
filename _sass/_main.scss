@@ -49,7 +49,7 @@ a:hover {
 
 #theme-toggle::before {
 	display: inline;
-	content: '🌞';
+	content: '🌛';
 }
 
 @mixin dark_theme {
@@ -75,7 +75,7 @@ a:hover {
 	}
 
 	#theme-toggle::before {
-		content: '🌛';
+		content: '🌞';
 	}
 }
 
