@@ -133,8 +133,9 @@ input[type=text] {
 	font-size: normal;
 	outline: none;
 	padding: 1rem;
-	background: $unopinionated_color;
 	width: 100%;
+	box-sizing: border-box;
+	background: $unopinionated_color;
 	-webkit-appearance: none;
 	font-family: inherit;
 	font-size: 100%;

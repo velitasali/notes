@@ -107,12 +107,14 @@ The term **communicative** can in fact refer to all four language skills.
 
 4. Paper skills, writing and reading.
 
-The **giver and receive** of a message is the means in which the informaiton in a message is understood. 
+The **giver and receive** of a message is the means in which the information in a message is understood. 
 
 ![How communication occur](/assets/communicative-language-teaching-4-language-skills-1.jpg)
 
-* Lnaguages seem to have inherent communicative as well as grammatical properties.
+* Languages seem to have inherent communicative as well as grammatical properties.
 
-* A communicatiove approach also implies a concern with behavior, patterns of interaction as well as linguistic content.
+* A communicative approach also implies a concern with behavior, patterns of interaction as well as linguistic content.
 
 Morrow (1981)
+
+
