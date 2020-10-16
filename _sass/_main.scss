@@ -21,7 +21,7 @@ body {
 	line-height: 1.5;
 	font-size: 1rem;
 	font-weight: 300;
-	color: rgb(22, 23, 26);
+	color: #333;
 }
 
 nav ul {
@@ -33,14 +33,14 @@ nav ul {
 }
 
 a {
-    color: #000;
+    color: #801;
     text-decoration-skip-ink: auto;
     text-decoration: underline;
 }
 
 a:hover {
 	text-decoration: none;
-	color: #555;
+	color: #856;
 }
 
 #theme-toggle::before {
@@ -59,11 +59,11 @@ a:hover {
 	}
 
 	a {
-		color: #eee;
+		color: #f89;
 	}
 
 	a:hover {
-		color: #bbb;
+		color: #fcb;
 	}
 
 	#theme-toggle::before {
@@ -233,6 +233,16 @@ h1, h2, h3, h4, h5 {
 
 section h1:first-child {
 	margin-top: 0;
+}
+
+tr td {
+	padding: 10px;
+	background-color: #88888820;
+}
+
+table {
+	width: 100%;
+	box-sizing: border-box;
 }
 
 strong, b {
