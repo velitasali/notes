@@ -15,7 +15,7 @@ html {
 }
 
 body {
-	font-family: Ubuntu, system-ui, sans-serif;
+	font-family: 'Ubuntu', system-ui, sans-serif;
 	-webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 	line-height: 1.5;
@@ -31,7 +31,7 @@ header nav {
 	border-right: 1px solid $unopinionated_color;
 	position: fixed;
 	width: 10rem;
-	font-family: monospace;
+	font-family: 'Cascadia Code', monospace;
 	font-size: 11pt;
 	font-weight: normal;
 }
