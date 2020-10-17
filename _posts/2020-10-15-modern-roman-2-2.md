@@ -3,25 +3,25 @@ layout: post
 author: tasali
 title: Modern Roman - Week 2.2
 date: 2020-10-15 13:00:00 +300
-description: 
-summary: 
-tags: [formalism]
+description: What exactly was modernism? What did it have and who influenced it?
+summary: Modernism is a result of many changes. After the industrial revolution, reason was the driving force. After the wars leading hopelessness and theories (Einstein, Newton, Freud, Jung) altering how existence is perceived, the literary movement followed along and rejected what led these changes in the first place.
+tags: [modernism, formalism, dadaism, vorticism, dadaism, expressionism, futurism]
 category: ELIT403
 ---
 
-Literature in **Formalism** is regarded as craft. The idea is to feed the desire for creativity and originality. Modernist poetry often includes foreign languages, dense vocabulary and invented words.
+Literature in **formalism** is regarded as craft. The idea is to feed the desire for creativity and originality. Modernist poetry often includes foreign languages, dense vocabulary and invented words.
 
 Narrative continuity is broken up. Traditional syntax is violated. A conventional way of representing characters is abandoned.
 
-Nostalgia for the past. Lamentation for the loss of grand narratives. The idea of stability, progress and religion is lost.
+Other features include;
 
-Most of the literary works of the Modern Age were influenced by the disillusionment that came after the World War.
+* Nostalgia for the past. 
+* Lamentation for the loss of grand narratives. 
+* The idea of stability, progress and religion is lost.
 
-Irony, satire and comparisons are used frequently to illustrate points in regard to society. 
+Most of the literary works of the Modern Age were influenced by the disillusionment (seeing without filters, i.e. with no understanding of afterlife) that came after the World War.
 
-Corruption and decline in faith, values were not easily to fix which occurred in Modernism. 
-
-You need to destroy
+Irony, satire and comparisons are used frequently to illustrate points in regard to society. Corruption and decline in faith and values, which occurred in Modernism were not easily fixable.
 
 ## Themes 
 
@@ -36,20 +36,18 @@ You need to destroy
 * Interest in the myths, primitive and non-western cultures
 * Impossibility of an absolute interpretation of reality
 * Overwhelming technological changes.
-* Negative impact of industrial and technological chnage
+* Negative impact of industrial and technological change
 * Internal and psychological crises
 * Relationship between time and consciousness
 * Personal dislocation
-* Moral dissolution, unable to adopt to harsh, curuel, pitiless materialist life.
+* Moral dissolution, unable to adopt to harsh, cruel, pitiless materialist life.
 * Criticism of liberal ideology.
 
 When I say modernism or modern fiction, I refer to the urbanization in 20th century. While some writers celebrated this event, some other did not. Those who did not also wanted to live a primitive life and longed for the past. Rather than objectivity, we have subjectivity. 
 
-Traditional notion of time changed. The time flowing on a straight line was replaced by time that is cyclical. I t
+Traditional notion of time changed. The time flowing on a straight line was replaced by time that is cyclical. Rootless or directionless because existence became a problem.
 
-Rootless or directionless because, existence became a problem.
-
-Personal dislocation has two different meanings. 
+Personal dislocation has two different meanings: moving to urban life or being alienated.
 
 ## Poetry
 
@@ -59,10 +57,10 @@ Personal dislocation has two different meanings.
 * Juxtaposition of ideas rather than consequential exposition
 * Intertextuality
 * Use of allusions and multiple association of words borrowings from other cultures and languages
-* Unconventional use of methaphor
+* Unconventional use of metaphor
 * Importance given to sound to convey "the music of ideas"
 
-According to imagism, everything should be direct, conscise.
+According to imagism, everything should be direct, concise.
 
 Epiphany likes **stream-of-consciousness**.
 
@@ -70,9 +68,9 @@ Epiphany likes **stream-of-consciousness**.
 
 ### Vorticism
 
-Industrialization created machines. It speeded up production exponentially. Voriticism inspired by these changes. Vorticist likes dynamism that came with industrial changes. It was not against the industrial changes.
+Industrialization created machines. It sped up production exponentially. Vorticism inspired by these changes. Vorticist likes dynamism that came with industrial changes. It was not against the industrial changes.
 
-Voritists rejected the Victorian way of changes. 
+Voriticists rejected the Victorian way of changes. 
 
 ### Futurism
 
