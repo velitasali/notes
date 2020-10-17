@@ -21,6 +21,8 @@ body {
 	line-height: 1.5;
 	font-size: 1rem;
 	font-weight: 300;
+	padding: 0;
+	margin: 0;
 	color: #333;
 	transition: background-color .75s;
 }
@@ -29,6 +31,9 @@ header nav {
 	border-right: 1px solid $unopinionated_color;
 	position: fixed;
 	width: 10rem;
+	font-family: monospace;
+	font-size: 11pt;
+	font-weight: normal;
 }
 
 header nav ul {
@@ -234,7 +239,7 @@ header li {
 }
 
 header a.active {
-	font-weight: bold;
+	font-weight: bolder;
 }
 
 header, section {
@@ -343,25 +348,21 @@ section[class="post"] img {
 }
 
 @media screen and (max-width: 60rem) {
+
 	main {
 		gap: 0;
-		padding: 0;
+		padding: 1rem;
 	}
 
 	header {
 		grid-column: span 4;
-		margin-left: 1rem;
-		margin-right: 1rem;
 	}
 
 	header li {
-		display: inline;
-		margin: 0;
-		padding-left: .5rem;
-		padding-right: .5rem;
-	}
-
-	.logo {
+		display: inline-flex;
+		margin: 0rem;
+		padding-left: .75rem;
+		padding-right: .75rem;
 		padding-bottom: 1rem;
 	}
 
@@ -370,12 +371,12 @@ section[class="post"] img {
 		width: initial;
 		border-right: 0;
 		border-bottom: 1px solid $unopinionated_color;
-		padding-bottom: 1rem;
+		padding-bottom: 1rem; 
 	}
 
 	header nav ul {
 		flex-wrap: wrap;
-		justify-content: space-around;
+		justify-content: space-evenly;
 		display: flex;
 	}
 
@@ -384,9 +385,7 @@ section[class="post"] img {
 	}
 
 	section {
-		margin-bottom: 1rem;
-		margin-left: 1rem;
-		margin-right: 1rem;
+		margin-bottom: 0;
 	}
 
 	section[class="post"] img {
