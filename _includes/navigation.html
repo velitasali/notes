@@ -2,10 +2,20 @@
       <!--<h1 class="logo">{{ site.title }}</h1> -->
       <nav role="navigation">
          <ul>
-            {% for item in site.data.navigation.links %}
-               <li><a href="{{ item.url }}" {% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
-            {% endfor %}
+{% for item in site.data.navigation.links %}
+            <li><a href="{{ item.url }}" {% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
+{% endfor %}
             <li id="theme-toggle-item"><a id="theme-toggle" title="Toggle dark/light theme" href="javascript:void(0)" onclick="toggleTheme()"></a></li>
+{% if page.previous.url %}
+   {% assign post=page.previous %}
+            <li class="nav-post-link"><a href="{{ page.previous.url }}">prev</a></li>
+            <li class="nav-post" title="{{ page.previous.title }}">{{ page.previous.title }}</li>
+{% endif %}
+{% if page.next.url %}
+   {% assign post=page.next %}
+            <li class="nav-post-link"><a href="{{ page.next.url }}">next</a></li>
+            <li class="nav-post" title="{{ page.next.title }}">{{ page.next.title }}</li>
+{% endif %}
          </ul>
       </nav>
 </header>

@@ -26,17 +26,5 @@ layout: default
   </p>
   {{ content }}
 </section>
-<section class="posts">
-  {% if page.previous.url %}
-    <h2>Previously posted</h2>
-    {% assign post=page.previous %}
-    {% include list_post.html %}
-  {% endif %}
-  {% if page.next.url %}
-    <h2>Newly posted</h2>
-    {% assign post=page.next %}
-    {% include list_post.html %}
-  {% endif %}
-</section>
 
 

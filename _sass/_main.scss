@@ -25,7 +25,12 @@ body {
 	transition: background-color .75s;
 }
 
-nav ul {
+header nav {
+	position: fixed;
+	width: 10rem;
+}
+
+header nav ul {
 	border-right: 1px solid $unopinionated_color;
 	margin-block-start: 0;
 	margin-block-end: 0;
@@ -314,24 +319,38 @@ main {
 	margin: .5rem 0;
 }
 
+.nav-post {
+	font-size: .5rem; 
+	text-overflow: ellipsis; 
+	overflow: hidden; 
+	white-space: nowrap;
+}
+
+.nav-post-link {
+	margin-top: 1.2rem;
+}
+
 @media screen and (max-width: 49rem) {
 	header li {
 	    display: inline-flex;
-		margin-right: 1rem;
+		margin-right: .5rem;
+		margin-left: .5rem;
 	}
 
 	.logo {
 		padding-bottom: 1rem;
 	}
 
-	header ul {
+	header nav {
+		position: initial;
+		width: initial;
+	}
+
+	header nav ul {
+		border-right: 0;
 		border-bottom: 1px solid $unopinionated_color;
 		padding-bottom: 2rem;
 		text-align: center;
-	}
-
-	nav ul {
-	    border-right: 0;
 	}
 
 	.photos ul {
@@ -340,6 +359,14 @@ main {
 
 	section[class="post"] img {
 		width: initial;	
+	}
+
+	.nav-post-link {
+		margin-top: unset;
+	}
+
+	.nav-post {
+		display: none;
 	}
 }
 
