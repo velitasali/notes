@@ -201,10 +201,26 @@ hr {
     border: 0;
 }
 
+main {
+	max-width: 60rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	gap: 2rem;
+	margin: auto;
+	padding: 2rem 0;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	grid-column: span 4;
+}
+
 header {
-	flex-basis:10rem;
-	flex-grow:1;
-	position:relative;
+	position: relative;
+	box-sizing: border-box;
+	grid-column: span 1;
 }
 
 header a {
@@ -221,8 +237,12 @@ header a.active {
 	font-weight: bold;
 }
 
-header,section {
-	padding:1rem;
+header, section {
+	padding: 1rem;
+}
+
+figcaption {
+    font-size: smaller;
 }
 
 blockquote {
@@ -279,26 +299,26 @@ section[class="post"] img {
 	margin-bottom: 0.5rem;
 }
 
-.posts ul,header ul {
-	list-style:none;
+.posts ul, header ul {
+	list-style: none;
 }
 
 .posts li {
-	align-items:center;
-	display:flex;
-	justify-content:space-between;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
 	margin-bottom: .5rem;
 }
 
-.posts li a, .posts li div, .projects li a {
-	white-space:nowrap;
-	overflow:hidden;
-	text-overflow:ellipsis;
+.posts li a, .posts li div {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 	text-decoration: none;
 }
 
-.posts li time, .projects li time {
-	padding-left: 1rem;
+.posts li span, .posts li time {
+	padding-left: .7rem;
 	white-space: nowrap;
 	font-variant-numeric: tabular-nums;
 }
@@ -307,20 +327,12 @@ section[class="post"] img {
 	//list-style-position: inside;
 }
 
-main {
-	display: flex;
-	flex-wrap: wrap;
-	max-width: 60rem;
-	margin: 2rem auto;
-	padding: 1rem;
-}
-
 .meta {
 	margin: .5rem 0;
 }
 
 .nav-post {
-	font-size: .5rem; 
+	font-size: .75rem; 
 	text-overflow: ellipsis; 
 	overflow: hidden; 
 	white-space: nowrap;
@@ -330,7 +342,11 @@ main {
 	margin-top: 1.2rem;
 }
 
-@media screen and (max-width: 49rem) {
+@media screen and (max-width: 60rem) {
+	header {
+		grid-column: span 4;
+	}
+
 	header li {
 	    display: inline-flex;
 		margin-right: .5rem;
@@ -368,16 +384,4 @@ main {
 	.nav-post {
 		display: none;
 	}
-}
-
-section {
-	flex-basis:0;
-	flex-grow:999;
-	min-width:70%;
-	display:flex;
-	flex-direction:column;
-}
-
-figcaption {
-    font-size: smaller;
 }
