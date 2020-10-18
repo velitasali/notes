@@ -9,6 +9,7 @@ title: authors
     <h2><a id="{{ author.short_name }}" href="https://twitter.com/{{ author.twitter }}">@{{ author.short_name }}</a> <small>({{ author.name }})</small></h2>
     {{ author.content | markdownify }}
     <h3>authored</h3>
+    <ul>
     {% assign filtered_posts = site.posts | where: 'author', author.short_name %}
     {% for post in filtered_posts %}
         {% include list_post.html %}

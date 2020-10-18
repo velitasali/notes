@@ -3,28 +3,32 @@ layout: default
 ---
 {% assign category_size = page.categories | size %}
 {% assign tag_size = page.tags | size %}
-<section class="post">
-  <h1>{{ page.title }}</h1>
-  <p class="meta">
-    <time title="{{ page.date | date: "%x %X %Z" }}" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> 
-{% if page.author %}
-    &middot; <span title="authors"><a href="/authors#{{ page.author }}">@{{ page.author }}</a></span>
-{% endif %}
-{% if category_size > 0 %}
-    &middot;
-    <span title="categories">
-  {% for category in page.categories %}
-      <a href="/categories#{{ category }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
-    </span>
-{% endif %}
+<section>
+  <article>
+    <header>
+      <h1>{{ page.title }}</h1>
+      <section>
+        <time title="{{ page.date | date: "%x %X %Z" }}" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> 
+  {% if page.author %}
+        &middot; <span title="authors"><a href="/authors#{{ page.author }}">@{{ page.author }}</a></span>
+  {% endif %}
+  {% if category_size > 0 %}
+        &middot;
+        <span title="categories">
+    {% for category in page.categories %}
+          <a href="/categories#{{ category }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
+        </span>
+  {% endif %}
 
-{% if tag_size > 0 %}
-    &middot;
-  {% for tag in page.tags %}
-    <a href="/tags#{{ tag | slugify }}">#{{ tag }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
-{% endif %}
-  </p>
-  {{ content }}
+  {% if tag_size > 0 %}
+        &middot;
+    {% for tag in page.tags %}
+        <a href="/tags#{{ tag | slugify }}">#{{ tag }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+  {% endif %}
+      </section>
+    </header>
+    {{ content }}
+  </article>
 </section>
 
 
