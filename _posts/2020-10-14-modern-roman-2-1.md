@@ -5,7 +5,7 @@ title: Modern Roman - Week 2.1
 date: 2020-10-14 13:00:00 +300
 description: What is Modernism? How did it come to be and what are the subbranches?
 summary: Modernism was the result of the scientific advancements and the failure of religions to provide humans with relief. Beginning of psychological studies is also another reason.
-tags: [modernism, social-background, cultural-background, historical-background, jung, psychoanalysis, theory-of-relativity, archetypes, freud]
+tags: [modernism, woolf, social-background, cultural-background, historical-background, jung, psychoanalysis, theory-of-relativity, archetypes, freud]
 category: ELIT403
 ---
 
