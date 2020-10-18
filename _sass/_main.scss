@@ -23,22 +23,6 @@ body {
 	transition: background-color .75s;
 }
 
-header nav {
-	border-right: 1px solid $unopinionated_color;
-	position: fixed;
-	width: 10rem;
-	font-family: 'Cascadia Code', monospace;
-	font-size: 11pt;
-	font-weight: 350;
-}
-
-header nav ul {
-	margin-block-start: 0;
-	margin-block-end: 0;
-	padding-inline-start: 0;
-	padding-inline-end: 0;
-}
-
 a {
     color: #801;
     text-decoration-skip-ink: auto;
@@ -251,9 +235,9 @@ main {
 	max-width: 60rem;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-	gap: 2rem;
 	margin: auto;
 	padding: 2rem 0;
+	gap: 1rem;
 }
 
 main > { 
@@ -262,6 +246,7 @@ main > {
 		flex-direction: column;
 		box-sizing: border-box;
 		grid-column: span 4;
+		padding: 1rem;
 	}
 	
 	header {
@@ -270,22 +255,38 @@ main > {
 		grid-column: span 1;
 	}
 
-	header a {
-		text-decoration: none;
-	}
+	header {
+		nav {
+			border-right: 1px solid $unopinionated_color;
+			position: fixed;
+			width: 11rem;
+			font-family: 'Cascadia Code', monospace;
+			font-size: 11pt;
+			font-weight: 350;
+		}
 
-	header li {
-		margin-bottom: .2rem;
-		text-align: right;
-		margin-right: 2rem;
-	}
+		nav {
+			ul {
+				margin-block-start: 0;
+				margin-block-end: 0;
+				padding-inline-start: 0;
+				padding-inline-end: 0;
+			}
 
-	header a.active {
-		font-weight: bolder;
-	}
+			li {
+				margin-bottom: .2rem;
+				text-align: right;
+				margin-right: 2rem;
+			}
 
-	header, section {
-		padding: 1rem;
+			a {
+				text-decoration: none;
+			}
+		
+			a.active {
+				font-weight: bolder;
+			}
+		}
 	}
 }
 
@@ -380,26 +381,30 @@ h6 {
 			grid-column: span 4;
 		}
 
-		header li {
-			display: inline-flex;
-			margin: 0rem;
-			padding-left: .75rem;
-			padding-right: .75rem;
-			padding-bottom: 1rem;
-		}
+		header {
+			nav {
+				position: initial;
+				width: initial;
+				border-right: 0;
+				border-bottom: 1px solid $unopinionated_color;
+				margin: 1rem;
+			}
 
-		header nav {
-			position: initial;
-			width: initial;
-			border-right: 0;
-			border-bottom: 1px solid $unopinionated_color;
-			padding-bottom: 1rem; 
-		}
+			nav {
+				ul {
+					flex-wrap: wrap;
+					justify-content: space-evenly;
+					display: flex;
+				}
 
-		header nav ul {
-			flex-wrap: wrap;
-			justify-content: space-evenly;
-			display: flex;
+				li {
+					display: inline-flex;
+					margin: 0rem;
+					padding-left: .75rem;
+					padding-right: .75rem;
+					padding-bottom: 2rem;
+				}
+			}
 		}
 
 		section {
