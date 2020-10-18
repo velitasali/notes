@@ -3,13 +3,13 @@ layout: default
 ---
 
 <section class="posts">
-    <h1>all ({{ site.posts | size }})</h1>
+    <h1>all <small>{{ site.posts | size }}</small></h1>
 {% for post in site.posts %}
     {% capture day %}{{ post.date | date: '%m%d%Y' }}{% endcapture %}
     {% capture nday %}{{ post.next.date | date: '%m%d%Y' }}{% endcapture %}
     {% if day != nday %}
     {% unless forloop.first %}</ul> {% endunless %}
-    <h2 class="date">{{ post.date | date: "%A, %e %B %Y" }}</h2>
+    <h2>{{ post.date | date: "%A, %e %B %Y" }}</h2>
     <ul>
     {% endif %}
         {% include list_post.html show_date = 0 %}

@@ -4,10 +4,6 @@ html {
 	scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-
-}
-
 @media screen and (prefers-reduced-motion: reduce) {
 	html {
 		scroll-behavior: auto;
@@ -205,10 +201,6 @@ article {
 		width: 100%;
 		box-sizing: border-box;
 	}
-	
-	h1, h2, h3, h4 {
-		margin: 1rem 0;
-	}
 
 	header {
 		h1 {
@@ -301,14 +293,44 @@ figcaption {
     font-size: smaller;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
 	line-height: 1;
 	margin: 1rem 0;
-	font-weight: 600;
+
+	small {
+		opacity: 0.5;
+		margin-left: .2rem;
+	}
 }
 
-section h1:first-child {
-	margin-top: 0;
+section {
+	h1:first-child {
+		margin-top: 0;
+	}
+}
+
+h1 {
+	font-size: 1.75rem !important;
+}
+
+h2 {
+	font-size: 1.50rem !important;
+}
+
+h3 {
+	font-size: 1.25rem !important;
+}
+
+h4, h5, h6 {
+	font-size: 1.15rem !important;
+}
+
+h5, h6 {
+	font-style: italic;
+}
+
+h6 {
+	font-weight: 400;
 }
 
 .posts ul, header ul {
