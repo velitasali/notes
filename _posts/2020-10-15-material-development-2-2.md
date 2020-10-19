@@ -271,3 +271,6 @@ Learning a word is a part of learning a new language. That's why, when we learn 
 * The sub-skills of comprehension.
 * Study skills and learning strategies are linked to increasing attention.
 * The current literature on learning strategies has grown enormously in recent years, covering strategies and skills.
+
+*[CLT]: Communicative Language Teaching
+*[TBL]: Task-based learning

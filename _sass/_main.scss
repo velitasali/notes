@@ -195,6 +195,11 @@ article {
 			margin: .5rem 0;
 		}
 	}
+
+	abbr {
+		text-decoration-line: underline;
+		text-decoration-style: wavy;
+	}
 }
 
 p, ul, ol {
@@ -365,6 +370,7 @@ h6 {
 	text-overflow: ellipsis; 
 	overflow: hidden; 
 	white-space: nowrap;
+	cursor: help;
 }
 
 .nav-post-link {
