@@ -1,7 +1,7 @@
 ---
 layout: post
 author: tasali
-title: Levant in English Literature Week 2
+title: Levant in English Literature - Week 2
 date: 2020-10-16 13:00:00 +300
 description:  What is crusades and how are Levant people involved in it?
 summary: Crusades shaped who Levant people are in English Literature and understanding them could be a good starting point.
