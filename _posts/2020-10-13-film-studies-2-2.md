@@ -3,7 +3,7 @@ layout: post
 author: tasali
 title: Film Studies - Week 2.2
 date: 2020-10-13 14:40:00 +300
-description: Understanding the types of montage. Is is metric
+description: Understanding the types of montage.
 summary: Projecting human behavior on to a film requires an understanding how we see things and create the whole by comparing the whole. 
 tags: [eisenstein, montage, theory]
 category: ELIT321

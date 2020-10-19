@@ -188,17 +188,36 @@ article {
 
 	header {
 		h1 {
-			margin-bottom: 1rem;
+			margin-bottom: .5rem;
 		}
 
 		section {
-			margin: .5rem 0;
+			margin-bottom: 1rem;
+		}
+
+		details {
+			font-size: .85rem;
+			margin-top: .5rem;
+			margin-bottom: .5rem;
+			color: #888888;
+		}
+		
+		details > p {
+			font-size: .9rem;
+			margin-bottom: 0;
 		}
 	}
 
 	abbr {
 		text-decoration-line: underline;
 		text-decoration-style: wavy;
+	}
+}
+
+article > {
+	ul, ol {
+		margin-top: 0;
+		margin-bottom: 0;
 	}
 }
 
@@ -301,8 +320,8 @@ figcaption {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	line-height: 1;
 	margin: 1rem 0;
+	line-height: 1.1;
 
 	small {
 		opacity: 0.75;

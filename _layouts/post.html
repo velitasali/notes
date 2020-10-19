@@ -26,7 +26,12 @@ layout: default
         <a href="/tags#{{ tag | slugify }}">#{{ tag }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
   {% endif %}
       </section>
+      <details>
+        <summary>{{ page.description }}</summary>
+        <p>{{ page.summary }}</p>
+      </details>
     </header>
+    
     {{ content }}
   </article>
 </section>

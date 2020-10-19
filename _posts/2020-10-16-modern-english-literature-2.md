@@ -3,8 +3,8 @@ layout: post
 author: tasali
 title: Modern English Literature - Week 2
 date: 2020-10-16 14:40:00 +300
-description: 
-summary: 
+description: How did Modernism come to be? How did the Woolfs affect the process?
+summary: Modernism is a reactionary movement where the meaning and what came with it were no longer in-place. The Woolf Family made it so that the modernism was far away from what it was when it had first surfaced.
 tags: [woolf, modernism, freud, psychoanalysis, oedipus, inferiority, complex, bloomsbury, hogarth]
 category: ELIT401 
 ---
