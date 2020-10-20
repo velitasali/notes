@@ -4,7 +4,7 @@ author: tasali
 title: Intro to Corpus Linguistics - Week 2
 date: 2020-10-13 13:00:00 +300
 description: We studied on the unit What Is Corpus and What Can It Tell Us?
-summary: I think corpus/corpora is an interested branch of the linguistics and similarly, it is close to my previous interests, spaCy, for instance. 
+summary: I think corpus/corpora is an interesting branch of the linguistics and similarly, it is close to my previous interests, spaCy, for instance. 
 tags: [corpus, corpora, grammatical, lexical, frequency, dictionary, applied-linguistics, type, token]
 category: ELIN479
 ---
