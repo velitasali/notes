@@ -41,6 +41,6 @@ An _opening shot_ is a technique where a single shot goes on for a several minut
 
 ## Mise en Scene (Mizansen)
 
-Mise-en-scene is the every other task that a directory has to handle in order to achieve a level of consistency.
+Mise-en-scene is the every other task that a director has to handle in order to achieve a level of consistency.
 
 This can be deciding which style of clothes to use, or at which angles to shoot. You can call this the *planning phase*.
