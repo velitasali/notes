@@ -27,23 +27,20 @@ When showing two or more characters, you will want them to appear on an axis tha
 
 The most common way of applying this rule is in a dialogue where one character appears in reverse (as if in a mirror) to the other. You can also call this *reverse shot*. 
 
-Breaking this rule means you want the audience to be aware of something out of balance or of a change in state. For instance, the character may be a thief hiding something and in a dialogue with a police officer, the shot can show the mismatch in axis, stating that the character is not having an eye-contact with the officer. 
+Breaking this rule means you want the audience to be aware of a change in state or something out of balance. For instance, the character may be a thief hiding something and the shot can show the mismatch in axis in a dialogue with a police officer, stating that the character is not having an eye-contact with the officer. 
 
 Another example to this could be a character who was once weak gaining power on on another character. The shot could slowly change the angle where the new angle defining the moment in which the power shifts.
 
 ## Establishing Shot
 
-An _establishing shot_ defines the scene, and the place and signal the audience that the next shots (e.g., close-up) will belong to this scene and place.
+An _establishing shot_ defines the scene, and the place and signal the audience that the next shots (e.g., a close-up) will belong to this scene and place.
 
 ## Opening Shot
 
-An _opening shot_ is a technique where a single shot goes for a several minutes without interruption. For example, this can show a large neighborhood where the story will take place including the places where the individual shots will take place. A director can use this so that the audience can know where a shot is taking place and where it is relative to the other places.
+An _opening shot_ is a technique where a single shot goes on for a several minutes without interruption. For example, this can show a large neighborhood where the story will take place including the places for the individual shots. A director can use this so that the audience can know where a place is relative to the other places.
 
 ## Mise en Scene (Mizansen)
 
 Mise-en-scene is the every other task that a directory has to handle in order to achieve a level of consistency.
 
 This can be deciding which style of clothes to use, or at which angles to shoot. You can call this the *planning phase*.
-
-
-
