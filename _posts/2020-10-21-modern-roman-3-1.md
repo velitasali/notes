@@ -1,7 +1,7 @@
 ---
 layout: post
 author: tasali
-title: Modern Roman - Week 4.1
+title: Modern Roman - Week 3.1
 date: 2020-10-21 13:00:00 +300
 description: James Joyce is a modernist writer of 20th century. In his book, Dead (1914), we see a glimpse of his past. 
 summary: James Joyce reflects his own thoughts and ideas on this piece. Gabriel Conroy has a lot of similarities with him and, with this, we understand that Joyce were not always in peace with himself.
@@ -15,7 +15,7 @@ He left Ireland due to WW1 and did not return because of WW2, but that is not th
 
 Ireland as a country was going through a lot. British was trying to impose Protestantism, which led to a separation. There was a group supporting the British ruling, but there were also some who were conservative and didn't. 
 
-### Dead (1914)
+### The Dead (1914)
 
 Joyce doesn't like the Irish Nationalism as he thinks that it was the biggest obstacle in the progress of the country.
 
@@ -57,6 +57,6 @@ He is worried that how he thinks will not lend him in place where he is accepted
 
 He has the lack of understanding, emotion and sympathy. He is leading a life that is not in his control, which causes frustration.
 
-##### Gretta Conroy — Gabriel's Wife
+##### Gretta Conroy - Gabriel's Wife
 
 His relationship with her husband is that of the past (patriarch).
