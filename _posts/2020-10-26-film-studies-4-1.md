@@ -13,7 +13,7 @@ An _auteur_ is a person, usually a director, who was able to stamp his own ident
 
 ## François Truffaut & Cahiers du Cinema
 
-A key articles is François Truffaut's _A Tendency in French Cinema_ (1954).
+A key article is François Truffaut's _A Tendency in French Cinema_ (1954).
 
 He objected to the stifling psychological realism typical of French cinema in the post-war period, and how notions of what a French film should be—primarily a literary adaptation—limited its scope.
 
