@@ -4,7 +4,7 @@ author: tasali
 title: Intro to Corpus Linguistics - Week 3
 date: 2020-10-20 13:00:00 +300
 description: Definitions of a descriptive grammar, Unit 2.
-summary: How we understand grammar seems to be related to how we construct it. Grammar by default is not prescriptive as what we mean by rules changes and iss often broken by exceptions, which all natural languages experience. The spoken grammar is also different from that of written as one of the core values for the spoken grammar is efficiency. 
+summary: How we understand grammar seems to be related to how we construct it. Grammar by default is not prescriptive as what we mean by rules changes and is often broken by exceptions, which all natural languages experience. The spoken grammar is also different from that of written as one of the core values for the spoken grammar is efficiency. 
 tags: [descriptive, grammar, lexicogrammar, ideational, interpersonal, textual, metafunctions utterance, textual, primer, open-choice, idiom-principle]
 category: ELIN479
 ---

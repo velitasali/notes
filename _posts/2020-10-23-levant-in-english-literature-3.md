@@ -3,9 +3,9 @@ layout: post
 author: tasali
 title: Levant in English Literature - Week 3
 date: 2020-10-23 12:30:00 +300
-description:  
-summary: 
-tags: [the-song-of-roland, medieval]
+description: Understanding how Levant and English Literature are interconnected.
+summary: This session, we tried to assess how Levant and the west view of it affected literature. Due to lack of people who studied The Song of Roland, we skipped discussing it. Next week, the topic will be it.
+tags: [the-song-of-roland, medieval, francos, levant, orient, orientalism, edward-said]
 category: ELIT417 
 ---
 
@@ -27,6 +27,6 @@ In the medieval West, martial prowess was an important way to prove manhood, and
 
 This could make the Saracen and Levant a positive or negative example, or simply a target for the outlet of Christian military masculinity.
 
-So, what do the primary sources provide information regarding Levant in medieval imagination and literature?
+*To see if what is referred to as Orient in 20th century was the same as Levant in 10-15th centuries, we will also study Edward Said's Orientalism.*
 
-
+_Next lesson, we will study The Song of Roland._

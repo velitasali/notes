@@ -27,9 +27,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
-# Tags
-
-
 collections:
   pages:
     output: true
