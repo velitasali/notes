@@ -4,7 +4,7 @@ title: tags
 ---
 
 <section>
-	<h1>{{ page.title }}</h1>
+    <h1>{{ page.title }}</h1>
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
     <h2 class="section-title"><a id="{{ tag | first | slugify }}" href="#{{ tag | first | slugify }}">#{{ tag | first }}</a> <small>{{ tag | last | size }}</small></h2>

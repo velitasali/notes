@@ -4,8 +4,8 @@ layout: default
 {% assign category_size = page.categories | size %}
 {% assign tag_size = page.tags | size %}
 <section>
-  <article class="dashed_separator">
-    <header class="dashed_separator">
+  <article class="dashed-separator">
+    <header class="dashed-separator">
       <h1>{{ page.title }}</h1>
       <p>
         <time title="{{ page.date | date: "%x %X %Z" }}" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> 
