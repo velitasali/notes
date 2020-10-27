@@ -1,12 +1,12 @@
 ---
 layout: post
 author: tasali
-title: Film Studies - Week 3.2
+title: Film Studies
 date: 2020-10-20 14:40:00 +300
 description: This session, we discussed how we could see the rules being applied to movie (in Se7en to be exact) and how we could detect them. There wasn't much to note without showing the scenes as screenshots, which would take make whole day.
 summary: This movie is a good example how we can portray the human psychology using common movie techniques.
 tags: [se7en, montage, film, foreshadowing, doe, 180-degree]
-category: ELIT321
+category: [ELIT321, Week 3-2]
 ---
 
 &lt;spoiler&gt;

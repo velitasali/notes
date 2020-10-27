@@ -1,12 +1,12 @@
 ---
 layout: post
 author: tasali
-title: Modern Roman - Week 2.1
+title: Modern Roman
 date: 2020-10-14 13:00:00 +300
 description: What is Modernism? How did it come to be and what are the subbranches?
 summary: Modernism was the result of the scientific advancements and the failure of religions to provide humans with relief. Beginning of psychological studies is also another reason.
 tags: [modernism, woolf, social-background, cultural-background, historical-background, jung, psychoanalysis, theory-of-relativity, archetypes, freud]
-category: ELIT403
+category: [ELIT403, Week 2-1]
 ---
 
 Naturalism is an extension of **realism**. It is the representation of life in a scientific manner. It is more pessimistic than realism, which can get us closer to modernism. You cannot always expect good things to come out in life. You cannot just change the direction of life. It doesn't matter who and where you are in life because there are **external forces** which you may not have control over. Education you have received and the sociocultural place you are in will determine who you are.

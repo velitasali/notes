@@ -1,12 +1,12 @@
 ---
 layout: post
 author: tasali
-title: Material Development - Week 3.1
+title: Material Development
 date: 2020-10-19 13:00:00 +300
 description: The Context of Evaluation examines how the process of choosing materials, and grading the learners works and how a teacher could do it. 
 summary: Understanding who your learners are and what drives to learn while knowing what you can or cannot do could be important for effective teaching. 
 tags: [presentation, evaluation, teaching, external, internal, factors]
-category: ELAN453
+category: [ELAN453, Week 3-1]
 ---	
 
 This entry will study the following topics;

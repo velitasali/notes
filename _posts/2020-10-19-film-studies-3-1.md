@@ -1,12 +1,13 @@
 ---
 layout: post
 author: tasali
-title: Film Studies - Week 3.1
+title: Film Studies
 date: 2020-10-19 14:40:00 +300
 description: How a director shoots a movie? How individual shots can mean something?
 summary: There are rules that directors have to take into account in order to convey the meaning they long for. They follow some basic principles which are, in the end, closely tied to the human nature.
 tags: [film, montage, 30-degree, 180-degree, rules, opening, establishing, shot, mise-en-scene]
 category: ELIT321
+category: [ELIT321, Week 3-1]
 ---
 
 There are different rules when shooting a movie. Ask a director as they will most certainly tell you. These rules apply differently to different conditions. 

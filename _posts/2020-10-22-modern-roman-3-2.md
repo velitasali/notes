@@ -1,12 +1,12 @@
 ---
 layout: post
 author: tasali
-title: Modern Roman - Week 3.2
+title: Modern Roman
 date: 2020-10-22 13:00:00 +300
 description: This session we have been asked about the previous sessions. Also, after that, we studied The Dead by James Joyce.
 summary: James Joyce and his wife is are different in a way that one is to get rid of past while the other longs for it.
 tags: [joyce, decadence, epiphany, surrealism, woolf, materialists, spiritualists]
-category: ELIT403
+category: [ELIT403, Week 3-2]
 ---
 
 ## Decadence

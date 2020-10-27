@@ -1,12 +1,12 @@
 ---
 layout: post
 author: tasali
-title: Intro to Corpus Linguistics - Week 2
+title: Intro to Corpus Linguistics
 date: 2020-10-13 13:00:00 +300
 description: We studied on the unit What Is Corpus and What Can It Tell Us?
 summary: I think corpus/corpora is an interesting branch of the linguistics and similarly, it is close to my previous interests, spaCy, for instance. 
 tags: [corpus, corpora, grammatical, lexical, frequency, dictionary, applied-linguistics, type, token]
-category: ELIN479
+category: [ELIN479, Week 2-1]
 ---
 
 Language is infinite. Creating a corpora that include all the details of a language is nearly impossible for that reason. 

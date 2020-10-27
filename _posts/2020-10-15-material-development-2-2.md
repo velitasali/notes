@@ -1,12 +1,12 @@
 ---
 layout: post
 author: tasali
-title: Material Development - Week 2.2
+title: Material Development
 date: 2020-10-15 14:40:00 +300
 description: Current Approaches to Materials and Methods. Unit 2 of the coursebook. Presented by Özkan, S. N., Yıldırım, C., G., Altunöz, S., Daşdemir, P.
 summary: "Teaching and learning have a common problem: communication. We can still use the old methods to improve the newer approaches, task-based learning. It will work as long as the we take how learners learn into account."
 tags: [teaching, materials, methods, corpus, communicative-teaching, task-based-teaching, implications]
-category: ELAN453
+category: [ELAN453, Week 2-2]
 ---
 
 Courtesy of original creators. Notes and other additions are mentioned separately.

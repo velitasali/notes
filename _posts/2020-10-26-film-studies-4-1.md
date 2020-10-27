@@ -1,12 +1,13 @@
 ---
 layout: post
 author: tasali
-title: Film Studies - Week 4.1
+title: Film Studies
 date: 2020-10-26 14:40:00 +300
 description: What is an auteur? In film-making, can a director contribute to how to visible elements of the movie and have an influence?
 summary: Auteur is a director who not only shapes how the montage and other elements of movie-making are but also an influence in the movie creating a certain aesthetic element that is special to her or him.
 tags: [auteur, theory, signified, signifier, truffaut, cinema, film, metteur, se7en]
 category: ELIT321
+category: [ELIT321, Week 4-1]
 ---
 
 An _auteur_ is a person, usually a director, who was able to stamp his own identity upon a film despite the commercial pressures. 

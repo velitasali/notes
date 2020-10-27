@@ -5,8 +5,8 @@ title: find
 
 <!-- Html Elements for Search -->
 <div id="search-container">
-<input type="text" id="search-input" placeholder="Search...">
-<ol id="results-container"></ol>
+<input type="text" id="search-input" placeholder="type something to find...">
+<ol id="results-container" class="posts"></ol>
 </div>
 
 <!-- Script pointing to search-script.js -->
@@ -18,7 +18,7 @@ SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json',
-  searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+  searchResultTemplate: '{% include list_post_find_template.html %}',
   noResultsText: 'No results found',
   limit: 10,
   fuzzy: false,

@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<section class="posts">
+<section>
     <h1>all <small>{{ site.posts | size }}</small></h1>
 {% for post in site.posts %}
     {% capture day %}{{ post.date | date: '%m%d%Y' }}{% endcapture %}
     {% capture nday %}{{ post.next.date | date: '%m%d%Y' }}{% endcapture %}
     {% if day != nday %}
     {% unless forloop.first %}</ul> {% endunless %}
-    <h2>{{ post.date | date: "%A, %e %B %Y" }}</h2>
-    <ul>
+    <h2 class="section-title">{{ post.date | date: "%A, %e %B %Y" }}</h2>
+    <ul class="posts">
     {% endif %}
         {% include list_post.html show_date = 0 %}
 {% endfor %}

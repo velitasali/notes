@@ -1,12 +1,12 @@
 ---
 layout: post
 author: tasali
-title: Film Studies - Week 2.1 
+title: Film Studies
 date: 2020-10-12 14:40:00 +300
 description: How was the early days of recording to animate images? The inception of the film industry. 
 summary: Even though it seems that the rise of cinema was due to market that was available at the time, it is undeniable that sometimes small indie movies may also become a hit. I don't know what I am talking about for the time-being, but I will post updates on this topic later on.
 tags: [lumiere, film, industry, montage, dialectics, kuleshov-effect]
-category: ELIT321
+category: [ELIT321, Week 2-1]
 ---
 
 There will be a quiz at the end of the class, says Mr. İpşirli. The first topic is a YouTube Video (<https://www.youtube.com/watch?v=aFkSjdaqbyE>). 

@@ -1,12 +1,12 @@
 ---
 layout: post
 author: tasali
-title: Modern Roman - Week 3.1
+title: Modern Roman
 date: 2020-10-21 13:00:00 +300
 description: James Joyce is a modernist writer of 20th century. In his book, Dead (1914), we see a glimpse of his past. 
 summary: James Joyce reflects his own thoughts and ideas on this piece. Gabriel Conroy has a lot of similarities with him and, with this, we understand that Joyce were not always in peace with himself.
 tags: [joyce, modernism, irish, ireland, dead, british, ww1, ww2]
-category: ELIT403
+category: [ELIT403, Week 3-1]
 ---
 
 ## James Joyce 

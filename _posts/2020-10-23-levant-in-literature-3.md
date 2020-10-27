@@ -1,12 +1,12 @@
 ---
 layout: post
 author: tasali
-title: Levant in English Literature - Week 3
+title: Levant in Literature
 date: 2020-10-23 12:30:00 +300
 description: Understanding how Levant and English Literature are interconnected.
 summary: This session, we tried to assess how Levant and the west view of it affected literature. Due to lack of people who studied The Song of Roland, we skipped discussing it. Next week, the topic will be it.
 tags: [the-song-of-roland, medieval, francos, levant, orient, orientalism, edward-said]
-category: ELIT417 
+category: [ELIT417, Week 3-1]
 ---
 
 > They have occupied more and more of the lands of those Christians, and have overcome them in seven battles. They have killed and captured many, and have destroyed the churches and devastated the empire. If you permit them to continue thus for a while with impurity, the faithful of God will be much more widely attacked by them.

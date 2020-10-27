@@ -3,12 +3,12 @@ layout: default
 title: tags
 ---
 
-<section class="posts">
+<section>
 	<h1>{{ page.title }}</h1>
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
-    <h2><a id="{{ tag | first | slugify }}" href="#{{ tag | first | slugify }}">#{{ tag | first }}</a> <small>{{ tag | last | size }}</small></h2>
-    <ul>
+    <h2 class="section-title"><a id="{{ tag | first | slugify }}" href="#{{ tag | first | slugify }}">#{{ tag | first }}</a> <small>{{ tag | last | size }}</small></h2>
+    <ul class="posts">
     {% for post in site.posts %}
         {% if post.tags contains tag[0] %}
         {% include list_post.html %}

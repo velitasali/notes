@@ -1,12 +1,12 @@
 ---
 layout: post
 author: tasali
-title: Modern Roman - Week 2.2
+title: Modern Roman
 date: 2020-10-15 13:00:00 +300
 description: What exactly was modernism? What did it have and who influenced it?
 summary: Modernism is a result of many changes. After the industrial revolution, reason was the driving force. After the wars leading hopelessness and theories (Einstein, Newton, Freud, Jung) altering how existence is perceived, the literary movement followed along and rejected what led these changes in the first place.
 tags: [modernism, formalism, dadaism, vorticism, dadaism, expressionism, futurism]
-category: ELIT403
+category: [ELIT403, Week 2-2]
 ---
 
 Literature in **formalism** is regarded as craft. The idea is to feed the desire for creativity and originality. Modernist poetry often includes foreign languages, dense vocabulary and invented words.

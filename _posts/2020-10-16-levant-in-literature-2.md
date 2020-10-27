@@ -1,12 +1,12 @@
 ---
 layout: post
 author: tasali
-title: Levant in English Literature - Week 2
+title: Levant in Literature
 date: 2020-10-16 13:00:00 +300
 description:  What is crusades and how are Levant people involved in it?
 summary: Crusades shaped who Levant people are in English Literature and understanding them could be a good starting point.
 tags: [crusade, orthodox, latin, christian, medieval, pope]
-category: ELIT417 
+category: [ELIT417, Week 2-1]
 ---
 
 There have been 4 crusades. Between the first and third one, the objective was to take back the lost Christian lands (mostly of East Roman Empire) and fight Saracens. In the fourth one, the fight ended up being against Orthodox Christians. Therefore, the crusaders are known for being Latin Christians and the list of Saracen people can be summarized as anyone other than a Latin Christian.

@@ -1,12 +1,12 @@
 ---
 layout: post
 author: tasali
-title: Film Studies - Week 2.2
+title: Film Studies
 date: 2020-10-13 14:40:00 +300
 description: Understanding the types of montage.
 summary: Projecting human behavior on to a film requires an understanding how we see things and create the whole by comparing the whole. 
 tags: [eisenstein, montage, theory]
-category: ELIT321
+category: [ELIT321, Week 2-2]
 ---
 
 There 5 different type of montage/editing styles that Einsteinsen defined. 

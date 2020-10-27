@@ -7,11 +7,11 @@ title: authors
 	<h1>{{ page.title }}</h1>
 {% for author in site.authors %}
     <section class="author">
-        <h2 class="author">{{ author.name }} <small><a id="{{ author.short_name }}" href="https://twitter.com/{{ author.twitter }}">@{{ author.short_name }}</a></small></h2>
-        {{ author.content | markdownify }}
-        <section class="posts">
-            <h3>authored</h3>
-            <ul>
+        <h2 class="section-title">{{ author.name }} <small><a id="{{ author.short_name }}" href="https://twitter.com/{{ author.twitter }}">@{{ author.short_name }}</a></small></h2>
+        <section class="section-description">{{ author.content | markdownify }}</section>
+        <section>
+            <h3 class="section-title">authored</h3>
+            <ul class="posts">
             {% assign filtered_posts = site.posts | where: 'author', author.short_name %}
             {% for post in filtered_posts %}
                 {% include list_post.html %}

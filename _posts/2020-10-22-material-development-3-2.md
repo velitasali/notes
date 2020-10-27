@@ -1,12 +1,12 @@
 ---
 layout: post
 author: tasali
-title: Material Development - Week 3.2
+title: Material Development
 date: 2020-10-22 14:40:00 +300
 description: Chapter 3, Evaluating ELT Materials. 
 summary: Adopting a material is a careful work. You will need to decide how matching materials are and drop the ones that are not suitable. Also, you will need to make sure the syllabus is matching and see if you can use it in the class.
 tags: [context, evaluation, external, internal, syllabus, tomlinson, blurb, autonomy]
-category: ELAN453
+category: [ELAN453, Week 3-2]
 ---	
 
 ## 3.2 The Context of Evaluation

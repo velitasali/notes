@@ -3,16 +3,17 @@ layout: default
 title: categories
 ---
 
-<section class="posts">
+<section>
 	<h1>{{ page.title }}</h2>
 {% assign categories = site.categories | sort %}
 
-{% for cat in categories %}
-    <h2><a id="{{ cat[0] }}" href="#{{ cat[0] }}">{{ cat[0] }}</a> <small>{{ cat | last | size }}</small></h2>
-    <ul>
+{% for category in categories %}
+    <h2 class="section-title"><a id="{{ category[0] }}" href="#{{ category[0] }}">{{ category[0] }}</a> <small>{{ category | last | size }}</small></h2>
+    <ul class="posts">
     {% for post in site.posts %}
-        {% if post.categories contains cat[0] %}
-        {% include list_post.html %}
+        {% if post.categories contains category[0] %}
+        {% assign target_category=category[0] %}
+        {% include list_post.html category=target_category %}
         {% endif %}
     {% endfor %}
     </ul>

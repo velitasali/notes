@@ -7,7 +7,7 @@ layout: default
   <article>
     <header>
       <h1>{{ page.title }}</h1>
-      <section>
+      <section style="text-align: center;">
         <time title="{{ page.date | date: "%x %X %Z" }}" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> 
   {% if page.author %}
         &middot; <span title="authors"><a href="/authors#{{ page.author }}">@{{ page.author }}</a></span>
@@ -19,12 +19,6 @@ layout: default
           <a href="/categories#{{ category }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
         </span>
   {% endif %}
-
-  {% if tag_size > 0 %}
-        &middot;
-    {% for tag in page.tags %}
-        <a href="/tags#{{ tag | slugify }}">#{{ tag }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
-  {% endif %}
       </section>
       <details>
         <summary>{{ page.description }}</summary>
@@ -33,6 +27,12 @@ layout: default
     </header>
     {{ content }}
   </article>
+  {% if tag_size > 0 %}
+  <p>
+  {% for tag in page.tags %}
+    <a href="/tags#{{ tag | slugify }}">#{{ tag }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
+  </p>
+{% endif %}
 </section>
 
 

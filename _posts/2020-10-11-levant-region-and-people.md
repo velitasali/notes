@@ -1,7 +1,7 @@
 ---
 layout: post
 author: tasali
-title: Levant Region, Levantine, and Saracen People
+title: Levant and Saracen People
 date: 2020-10-11 19:45:00 +300
 description: Describes the first topics of the Levant in English Literature class.
 summary: Levant is close to home, Turkey. I will quote other sources as I have little to no idea about these topics. I am hoping to learn more in the upcoming class.

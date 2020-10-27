@@ -1,12 +1,12 @@
 ---
 layout: post
 author: tasali
-title: Material Development - Week 4.1
+title: Material Development
 date: 2020-10-26 13:00:00 +300
 description: Adapting Materials, Unit 4.
 summary: After adopting a material what a teacher certainly would do is adapting to the environment or for learners so that materials can achieve some level of authenticity. A good teacher will always adapt.
 tags: [adaptation, congruence, reordering, simplifying, modifying, deleting, adding, materials]
-category: ELAN453
+category: [ELAN453, Week 4-1]
 ---	
 
 This chapter focuses on how you can adapt adopted materials within particular classroom environments.
@@ -22,11 +22,11 @@ style" (Madsen and Bowen, 1978: ix).
 
 Similarly, Madsen and Bowen says: "the good teacher is constantly adapting. He adapts when he adds an example not found in the book or when he telescopes an assignment by having students prepare ‘only the even-numbered items’. He adapts even when he refers to an exercise covered earlier, or when he introduces a supplementary picture.... While a conscientious author tries to anticipate questions that may be raised by his readers, the teacher can respond not merely to verbal questions . . . but even to the raised eyebrows of his students" (Madsen and Bowen, 1978: vii).
 
-| connection | _External_ (what we have) | _Internal_ (what materials offer) |
+| _**connection**_ | _**External**_ (what we have) | _**Internal**_ (what materials offer) |
 | a, c | Learner characteristics | a. Choice of topics |
 | | Physical environment | b. Skills covered | 
 | b | Resources | c. Proficiency level |
-| | Class size | d Grading of exercises |
+| | Class size | d. Grading of exercises |
 | | . | . |
 
 ## Reasons for Adaptation 
