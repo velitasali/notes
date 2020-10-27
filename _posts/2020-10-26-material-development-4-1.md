@@ -22,12 +22,12 @@ style" (Madsen and Bowen, 1978: ix).
 
 Similarly, Madsen and Bowen says: "the good teacher is constantly adapting. He adapts when he adds an example not found in the book or when he telescopes an assignment by having students prepare ‘only the even-numbered items’. He adapts even when he refers to an exercise covered earlier, or when he introduces a supplementary picture.... While a conscientious author tries to anticipate questions that may be raised by his readers, the teacher can respond not merely to verbal questions . . . but even to the raised eyebrows of his students" (Madsen and Bowen, 1978: vii).
 
-| _**connection**_ | _**External**_ (what we have) | _**Internal**_ (what materials offer) |
-| a, c | Learner characteristics | a. Choice of topics |
-| | Physical environment | b. Skills covered | 
-| b | Resources | c. Proficiency level |
-| | Class size | d. Grading of exercises |
-| | . | . |
+| **External** (what we have) | **connection** | **Internal** (what materials offer) |
+| Learner characteristics | a, c | a. Choice of topics |
+| Physical environment | | b. Skills covered | 
+| Resources | b | c. Proficiency level |
+| Class size | | d. Grading of exercises |
+| . | | . |
 
 ## Reasons for Adaptation 
 
