@@ -1,5 +1,11 @@
 $unopinionated_color: #88888840;
 
+$redish: #801; 
+$redish_hovered: #856;
+
+$dark_redish: #f89;
+$dark_redish_hovered: #fcb;
+
 html {
 	scroll-behavior: smooth;
 }
@@ -25,13 +31,24 @@ body {
 
 a {
     color: #801;
-    text-decoration-skip-ink: auto;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover {
-	text-decoration: none;
 	color: #856;
+	text-decoration-style: solid;
+	text-decoration-line: underline;
+}
+
+article > p {
+	a {
+		text-decoration-line: underline;
+		text-decoration-style: solid;
+	}
+
+	a:hover {
+		text-decoration: none;
+	}
 }
 
 #theme-toggle::before {
@@ -172,21 +189,15 @@ article {
 		box-sizing: border-box;
 	}
 
-	header {
-		section {
-			margin-bottom: 1rem;
-		}
+	header > {
 
 		details {
-			font-size: .85rem;
-			margin-top: .5rem;
-			margin-bottom: .5rem;
+		//	font-size: .85rem;
 			color: #888888;
 		}
-		
+
 		details > p {
 			font-size: .9rem;
-			margin-bottom: 0;
 		}
 	}
 
@@ -296,7 +307,7 @@ figcaption {
     font-size: smaller;
 }
 
-p, ul, ol, blockquote {
+p, ul, ol, blockquote, summary, input[type=text] {
 	margin-block-start: .5rem;
 	margin-block-end: .5rem;
 }
@@ -309,9 +320,27 @@ blockquote {
 	margin-left: 0%;
 }
 
+@mixin dashed_separator {
+	content: '—';
+	font-weight: 300;
+	display: block;
+	color: $unopinionated_color;
+	font-size: 1.75rem;
+	text-align: center;
+}
+
+.dashed_separator::after {
+	@include dashed_separator();
+}
+
 main > section >, article > header {
 	h1:first-child {
 		text-align: center;
+		margin-bottom: 0;
+	}
+
+	h1:first-child::after {
+		@include dashed_separator();
 	}
 }
 
