@@ -282,7 +282,7 @@ main> {
 				padding: 0;
 			}
 
-			a {
+			a, a:hover {
 				text-decoration: none;
 			}
 
@@ -464,14 +464,17 @@ input[name="nav-toggle"],
 }
 
 ul.navigation-compact li {
-	transition: all 0.5s;
 	font-family: Ubuntu, sans-serif;
 	font-weight: 500;
 	font-size: 12pt !important;
 }
 
+ul.navigation-compact li, ul.navigation-main li {
+	transition: all 0.5s;
+}
+
 ul.navigation-compact li:hover {
-	letter-spacing: .1rem;
+	letter-spacing: .2rem;
 }
 
 @media screen and (max-width: 60rem) {
@@ -548,6 +551,10 @@ ul.navigation-compact li:hover {
 
 				ul.navigation-compact>li.navigation-compact-close {
 					display: flex;
+				}
+
+				ul.navigation-main li {
+					padding-top: 1rem;
 				}
 			}
 		}
