@@ -117,8 +117,8 @@ Norman's mother becomes jealous of Marion and takes over Norman's body and kills
 
 Even though I could go on until the end, we have understood the plot and what the director intended when shooting the film.
 
-Apart from all those, we can mention, Norman's house represents the unconscious side of the brain and the basement is the id, the first floor is the ego, and the second floor is the superego, which are all part of Freud's Psychoanalysis.
+Apart from all those, we can mention that Norman's house represents the unconscious side of the brain. The basement is the id, the first floor is the ego, and the second floor is the superego, which are all part of Freud's Psychoanalysis.
 
-We also see the signified and signifier methods in use. The use colors is one of them. 
+We also see the signified and signifier methods in use. The use of colors is one of them. 
 
 MacGuffin is another technique we see in the film. The director uses it to distract us so that the main plot doesn't surface until we understand the plot was never what we thought of. In the case of Psycho, money was never the plot. We later understand how unimportant it was after characters stop mentioning it.
