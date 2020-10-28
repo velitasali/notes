@@ -1,10 +1,12 @@
 <header role="banner">
-   <input type="radio" name="nav-toggle" id="close" checked="checked">
-   <input type="radio" name="nav-toggle" id="open">
-   <label for="open" class="navigation-label">menu</label>
    <nav role="navigation">
-      <ul>
-         <li class="navigation-label main-navigation-close"><label for="close">close</label></li>
+      <input type="radio" name="nav-toggle" id="close" checked="checked">
+      <input type="radio" name="nav-toggle" id="open">
+      <ul class="navigation-compact">
+         <li class="navigation-compact-open"><label for="open">menu</label></li>
+         <li class="navigation-compact-close"><label for="close">close</label></li>
+      </ul>
+      <ul class="navigation-main">
          {% for item in site.data.navigation.links %}
          <li><a href="{{ item.url }}" {% if item.url == page.url %} class="active" {% endif %}>{{ item.title }}</a></li>
          {% endfor %}

@@ -277,9 +277,9 @@ main> {
 			}
 
 			li {
-				margin-bottom: .2rem;
 				text-align: right;
-				margin-right: 2rem;
+				margin: .1rem 2rem .1rem 0;
+				padding: 0;
 			}
 
 			a {
@@ -348,7 +348,6 @@ main>section>,
 article>header {
 	h1:first-child {
 		text-align: center;
-		margin-bottom: 0;
 	}
 
 	h1:first-child::after {
@@ -459,18 +458,19 @@ header ul {
 	margin-top: 1.2rem;
 }
 
-input[name="nav-toggle"], label[for="open"], .main-navigation-close {
+input[name="nav-toggle"],
+.navigation-compact {
 	display: none;
 }
 
-.navigation-label {
+ul.navigation-compact li {
 	transition: all 0.5s;
 	font-family: Ubuntu, sans-serif;
 	font-weight: 500;
 	font-size: 12pt !important;
 }
 
-.navigation-label:hover {
+ul.navigation-compact li:hover {
 	letter-spacing: .1rem;
 }
 
@@ -482,10 +482,6 @@ input[name="nav-toggle"], label[for="open"], .main-navigation-close {
 	}
 
 	main> {
-		section {
-			margin: 0 1rem;
-		}
-
 		header {
 			grid-column: span 4;
 		}
@@ -494,49 +490,65 @@ input[name="nav-toggle"], label[for="open"], .main-navigation-close {
 			@include dashed-separator();
 		}
 
+		section {
+			margin-top: 0;
+		}
+
 		header {
 			nav {
 				position: initial;
 				width: initial;
 				border: 0;
-				margin: 0;
+				margin: 2rem 0 0 0;
 				padding: 0;
-				max-height: 0;
-				transition: max-height 0.5s;
 			}
 
 			nav {
-				ul {
+				ul,
+				.navigation-compact {
 					flex-wrap: nowrap;
 					display: flex;
 					overflow: scroll;
 					flex-direction: column;
 					margin: 0;
+					padding: 0;
+					margin-block-start: 0;
+					margin-block-end: 0;
 				}
 
 				li {
 					display: flex;
-					margin: 0.75rem auto;
+					margin-left: auto;
+					margin-right: auto;
+					padding: 0rem;
+				}
+
+				li a:hover {
+					text-decoration: none;
 				}
 			}
 
-			label[for="open"], .main-navigation-close {
-				display: block;
-				margin-top: 1.5rem;
-				padding: 0;
+			ul.navigation-main {
+				max-height: 0;
+				transition: max-height 0.5s;
 			}
 
-
-			label[for="open"] {
-				text-align: center;
-			}
-			
-			input[name="nav-toggle"]:checked#open ~ nav {
-				max-height: 64rem;
-			}
-
-			input[name="nav-toggle"]:checked#open ~ label[for="open"] {
+			li.navigation-compact-close {
 				display: none;
+			}
+
+			input[name="nav-toggle"]:checked#open~ {
+				ul.navigation-main {
+					max-height: 64rem;
+				}
+
+				ul.navigation-compact>li.navigation-compact-open {
+					display: none;
+				}
+
+				ul.navigation-compact>li.navigation-compact-close {
+					display: flex;
+				}
 			}
 		}
 	}
