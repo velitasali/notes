@@ -12,10 +12,10 @@ title: authors
         <section>
             <h3 class="section-title">authored</h3>
             <ul class="posts">
-            {% assign filtered_posts = site.posts | where: 'author', author.short_name %}
-            {% for post in filtered_posts %}
-                {% include list_post.html %}
-            {% endfor %}
+    {% assign filtered_posts = site.posts | where: 'author', author.short_name %}
+    {% for post in filtered_posts %}
+        {% include list_post.html show_date = 0 group_by_date = 1 %}
+    {% endfor %}
             </ul>
         </section>
     </section>

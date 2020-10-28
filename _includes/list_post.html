@@ -1,3 +1,11 @@
 {% assign show_date = include.show_date | default: 1 %}
+{% assign group_by_date = include.group_by_date | default: 0 %}
 {% assign categories = post.categories | where_exp:"item", "item != include.category" %}
-<li><a href="{{ post.url | relative_url }}" style="font-weight: 400;">{{ post.title }}</a> <span>{% for category in categories %}{{ category }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% if show_date == 1 %}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>{% endif %}</span></li>
+{% if group_by_date == 1 %}
+    {% capture day %}{{ post.date | date: '%m%d%Y' }}{% endcapture %}
+    {% capture nday %}{{ post.next.date | date: '%m%d%Y' }}{% endcapture %}
+    {% if day != nday %}
+<li><h4 class="semantic-h-font-size no-spacing">{{ post.date | date: "%e %b %Y" }}</h2></li>
+    {% endif %}
+{% endif %}
+<li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span>{% for category in categories %}{{ category }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% if show_date == 1 %}<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>{% endif %}</span></li>

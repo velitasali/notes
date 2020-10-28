@@ -9,7 +9,7 @@ layout: default
     {% capture nday %}{{ post.next.date | date: '%m%d%Y' }}{% endcapture %}
     {% if day != nday %}
     {% unless forloop.first %}</ul> {% endunless %}
-    <h2 class="section-title">{{ post.date | date: "%a, %e %b %Y" }}</h2>
+    <h2 class="section-title semantic-h-font-size">{{ post.date | date: "%a, %e %b %Y" }}</h2>
     <ul class="posts">
     {% endif %}
         {% include list_post.html show_date = 0 %}

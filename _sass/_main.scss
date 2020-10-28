@@ -253,8 +253,6 @@ main> {
 			border-right: 1px solid $unopinionated_color;
 			position: fixed;
 			width: 11rem;
-			font-family: 'Cascadia Code', monospace;
-			font-size: 11pt;
 			font-weight: 350;
 			top: 0;
 			bottom: 0;
@@ -278,7 +276,7 @@ main> {
 
 			li {
 				text-align: right;
-				margin: .1rem 2rem .1rem 0;
+				margin: .25rem 2rem .25rem 0;
 				padding: 0;
 			}
 
@@ -437,6 +435,8 @@ header ul {
 .posts li time {
 	padding-left: .7rem;
 	white-space: nowrap;
+	font-size: .85rem;
+	font-weight: 500;
 	font-variant-numeric: tabular-nums;
 }
 
@@ -475,6 +475,15 @@ ul.navigation-compact li, ul.navigation-main li {
 
 ul.navigation-compact li:hover {
 	letter-spacing: .2rem;
+}
+
+.semantic-h-font-size {
+	font-size: 1.15rem !important;
+}
+
+.no-spacing {
+	margin: 0;
+	padding: 0;
 }
 
 @media screen and (max-width: 60rem) {
