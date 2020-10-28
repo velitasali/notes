@@ -19,4 +19,4 @@ It can also let see how language is in use in real life.
 
 ## Checking Out Existing Corpora
 
-This week we studied the existing corpora and how we could make use of it. For instance, we can see how both collocation and colligation take place in real language use, or how a grammatically wrong usage can take over the language (in the case of direk in Turkish).
+This week we studied the existing corpora and how we could make use of it. For instance, we can see how both collocation and colligation take place in real language use, or how a grammatically wrong usage can take over the language (direk in the case of Turkish).
