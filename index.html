@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section>
-    <h1>all <small>{{ site.posts | size }}</small></h1>
+    <h1>home page</h1>
 {% for post in site.posts %}
     {% capture day %}{{ post.date | date: '%m%d%Y' }}{% endcapture %}
     {% capture nday %}{{ post.next.date | date: '%m%d%Y' }}{% endcapture %}

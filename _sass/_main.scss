@@ -181,7 +181,6 @@ article {
 	header> {
 
 		details {
-			//	font-size: .85rem;
 			color: #888888;
 		}
 
@@ -228,7 +227,7 @@ hr {
 main {
 	max-width: 60rem;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+	grid-template-columns: repeat(5, 1fr);
 	margin: auto;
 	gap: 1rem;
 }
@@ -238,21 +237,27 @@ main> {
 		display: flex;
 		flex-direction: column;
 		box-sizing: border-box;
-		grid-column: span 4;
+		grid-column: span 3;
 		margin: 1rem;
 	}
 
 	header {
-		position: relative;
-		box-sizing: border-box;
+		border-right: 1px solid $unopinionated_color_lighter;
 	}
 
-	header {
+	footer {
+		border-left: 1px solid $unopinionated_color_lighter;
+	}
+
+	header, footer {
+		position: relative;
+		box-sizing: border-box;
+		grid-column: span 1;
+
 		nav {
-			padding: 2rem 0;
-			border-right: 1px solid $unopinionated_color;
+			padding: 1.5rem 1rem;
 			position: fixed;
-			width: 11rem;
+			width: 10rem;
 			font-weight: 350;
 			top: 0;
 			bottom: 0;
@@ -275,8 +280,8 @@ main> {
 			}
 
 			li {
-				text-align: right;
-				margin: .25rem 2rem .25rem 0;
+				//text-align: right;
+				margin: .5rem 0;
 				padding: 0;
 			}
 
@@ -412,7 +417,7 @@ ol.posts:empty::before {
 }
 
 .posts,
-header ul {
+header ul, footer ul {
 	list-style: none;
 }
 
@@ -494,23 +499,46 @@ ul.navigation-compact li:hover {
 	}
 
 	main> {
-		header {
-			grid-column: span 4;
+		header, footer {
+			grid-column: span 5;
+			border: 0;
 		}
 
 		header::after {
 			@include dashed-separator();
 		}
 
+		footer::before {
+			@include dashed-separator();
+		}
+
 		section {
 			margin-top: 0;
+			grid-column: span 5;
+		}
+
+		header, footer {
+			nav {
+				position: initial;
+				width: initial;
+			}
+		}
+
+		footer nav {
+			ul {
+				flex-direction: row;
+				flex-wrap: wrap;
+				justify-items: center;
+			}
+			
+			li {
+				display: inline-flex;
+				margin: .5rem;
+			}
 		}
 
 		header {
 			nav {
-				position: initial;
-				width: initial;
-				border: 0;
 				margin: 2rem 0 0 0;
 				padding: 0;
 			}
@@ -530,9 +558,7 @@ ul.navigation-compact li:hover {
 
 				li {
 					display: flex;
-					margin-left: auto;
-					margin-right: auto;
-					padding: 0rem;
+					margin: .5rem auto;
 				}
 
 				li a:hover {
@@ -563,7 +589,7 @@ ul.navigation-compact li:hover {
 				}
 
 				ul.navigation-main li {
-					padding-top: 1rem;
+					margin: 1rem auto;
 				}
 			}
 		}

@@ -4,11 +4,23 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="en" >
-  {% include head.html %}  
+{% include head.html %}  
   <body>
     <main role="main">
-	    {% include navigation.html %}
-      {{ content }}
+{% include navigation.html %}
+{{ content }}
+{% assign tag_size = page.tags | size %}
+{% if tag_size > 0 %}
+      <footer>
+        <nav>
+          <ul>
+  {% for tag in page.tags %}
+            <li><a href="/tags#{{ tag | slugify }}">#{{ tag }}</a></li>
+  {% endfor %}
+          </ul>
+        </nav>
+      </footer>
+{% endif %}
     </main>
   </body>
 </html>
