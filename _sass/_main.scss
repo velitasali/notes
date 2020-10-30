@@ -225,7 +225,7 @@ hr {
 }
 
 main {
-	max-width: 60rem;
+	max-width: 70rem;
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	margin: auto;
@@ -255,9 +255,9 @@ main> {
 		grid-column: span 1;
 
 		nav {
-			padding: 1.5rem 1rem;
+			padding: 1.5rem 2rem;
 			position: fixed;
-			width: 10rem;
+			width: 9rem;
 			font-weight: 350;
 			top: 0;
 			bottom: 0;
@@ -491,7 +491,7 @@ ul.navigation-compact li:hover {
 	padding: 0;
 }
 
-@media screen and (max-width: 60rem) {
+@media screen and (max-width: 70rem) {
 	main {
 		gap: 0;
 		margin: 0;
@@ -521,6 +521,7 @@ ul.navigation-compact li:hover {
 			nav {
 				position: initial;
 				width: initial;
+				padding: 0;
 			}
 		}
 
@@ -529,6 +530,7 @@ ul.navigation-compact li:hover {
 				flex-direction: row;
 				flex-wrap: wrap;
 				justify-items: center;
+				margin: .5rem;
 			}
 			
 			li {
@@ -540,7 +542,7 @@ ul.navigation-compact li:hover {
 		header {
 			nav {
 				margin: 2rem 0 0 0;
-				padding: 0;
+
 			}
 
 			nav {
