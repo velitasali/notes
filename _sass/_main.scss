@@ -32,10 +32,11 @@ body {
 a {
 	color: #801;
 	text-decoration: none;
+	transition: all .25s;
 }
 
 a:hover {
-	color: #856;
+	color: #c56;
 	text-decoration-style: solid;
 	text-decoration-line: underline;
 }
@@ -469,18 +470,8 @@ input[name="nav-toggle"],
 	display: none;
 }
 
-ul.navigation-compact li {
-	font-family: Ubuntu, sans-serif;
-	font-weight: 500;
-	font-size: 12pt !important;
-}
-
 ul.navigation-compact li, ul.navigation-main li {
 	transition: all 0.5s;
-}
-
-ul.navigation-compact li:hover {
-	letter-spacing: .2rem;
 }
 
 .semantic-h-font-size {
@@ -542,8 +533,7 @@ ul.navigation-compact li:hover {
 
 		header {
 			nav {
-				margin: 2rem 0 0 0;
-
+				margin: 1.5rem 0 0 0;
 			}
 
 			nav {
@@ -551,7 +541,6 @@ ul.navigation-compact li:hover {
 				.navigation-compact {
 					flex-wrap: nowrap;
 					display: flex;
-					overflow: scroll;
 					flex-direction: column;
 					margin: 0;
 					padding: 0;
@@ -562,10 +551,6 @@ ul.navigation-compact li:hover {
 				li {
 					display: flex;
 					margin: .5rem auto;
-				}
-
-				li a:hover {
-					text-decoration: none;
 				}
 			}
 
@@ -589,10 +574,6 @@ ul.navigation-compact li:hover {
 
 				ul.navigation-compact>li.navigation-compact-close {
 					display: flex;
-				}
-
-				ul.navigation-main li {
-					margin: 1rem auto;
 				}
 			}
 		}
